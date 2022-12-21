@@ -1,30 +1,44 @@
-header{
-    background-color: #BBBBBB;
-    padding: 20px 0;
+body {
+    background: url("src/imagens/bg-madeira-clara.jpeg");
 }
 
-.caixa{
+header {
+    background: url("src/imagens/bg.jpg");
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 
 }
-nav{
+
+.caixa h1 {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: 20px;
+    right: 0;
+}
+
+nav {
     position: absolute;
     top: 110px;
     right: 0;
 
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -37,12 +51,13 @@ nav a:hover {
 
 }
 
-.produtos{
+.produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
-.produtos li{
+.produtos li {
+    background-color: #FFFFFF;
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -68,24 +83,25 @@ nav a:hover {
 
 }
 
-.produtos h2{
+.produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.produto-descricao{
+.produto-descricao {
     font-size: 18px;
 }
 
-.produto-preco{
+.produto-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
 
-footer{
-    text-align: center;
+footer {
+    margin-top: 300px;
     background: url("src/imagens/bg.jpg");
+    text-align: center;
     padding: 40px 0;
 }
 
@@ -93,4 +109,8 @@ footer{
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+.copyrigth:hover {
+    color: #C78C19;
 }

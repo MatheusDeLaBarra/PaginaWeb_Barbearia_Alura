@@ -1,9 +1,9 @@
   body {
-    background: #FFFFFF;
+    background: url("src/imagens/bg.jpg");
+    color: #FFFFFF;
   }
 
   header {
-    background-color: #cccccc;
     padding: 20px 0;
 
   }
@@ -39,7 +39,7 @@
 
   nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -49,14 +49,13 @@
     color: #C78C19;
     text-decoration: underline;
 
-}
+  }
 
   #banner {
     width: 100%;
   }
 
   .principal {
-    background: #cccccc;
     padding: 30px;
   }
 
@@ -76,23 +75,59 @@
     color: red;
   }
 
-  .itens {
-    font-style: italic;
-  }
-
   .beneficios {
-    background: #FFFFFF;
+    background: url("src/imagens/bg-madeira-clara.jpeg");
     padding: 20px;
-
+    color: #000000;
   }
 
-  /*ul {
+  .beneficios h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .beneficios h3:hover {
+    color: #C78C19;
+  }
+
+  .beneficios ul {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
+    margin-top: 5%;
     margin-right: 15%;
-  }*/
+    margin-left: 8%;
+
+  }
+
+  .beneficios li {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .beneficios li:hover {
+    color: #C78C19;
+  }
 
   .imagembeneficios {
+    margin-top: 20px;
     width: 50%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .copyrigth {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+  }
+
+  .copyrigth:hover {
+    color: #C78C19;
   }
