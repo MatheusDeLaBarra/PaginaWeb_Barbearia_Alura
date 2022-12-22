@@ -1,0 +1,134 @@
+  body {
+    background: url("src/imagens/bg.jpg");
+    color: #FFFFFF;
+  }
+
+  header {
+    padding: 20px 0;
+
+  }
+
+  .titulo-principal {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+  }
+
+  .titulo-principal h1 {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: 20px;
+    right: 0;
+
+  }
+
+  nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+  }
+
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+  }
+
+  nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  .principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .titulo-centralizado {
+    text-align: center
+  }
+
+  p {
+    padding-top: 10px;
+    text-align: center
+  }
+
+  #missao {
+    font-size: 20px
+  }
+
+  em strong {
+    color: red;
+  }
+
+  .beneficios {
+    background: url("src/imagens/bg-madeira-clara.jpeg");
+    padding: 20px;
+    color: #FFFFFF;
+  }
+
+  .beneficios h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .beneficios h3:hover {
+    color: #C78C19;
+  }
+
+  .beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+  }
+
+  .beneficios li {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 40px;
+  }
+
+  .beneficios li:hover {
+    color: #C78C19;
+  }
+
+  .imagembeneficios {
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .copyrigth {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+  }
+
+  .copyrigth:hover {
+    color: #C78C19;
+  }
