@@ -51,7 +51,7 @@
 
   }
 
-  #banner {
+  .banner {
     width: 100%;
   }
 
@@ -61,23 +61,31 @@
     padding: 30px;
   }
 
-  .titulo-centralizado {
+  .utensilios {
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+
+  .principal h2{
+    margin: 0 0 1em;
+    font-size: 2em;
     text-align: center
   }
 
-  p {
+  .principal p {
+    margin: 0 0 1em;
     padding-top: 10px;
     text-align: center
   }
 
-  #missao {
-    font-size: 20px
+  .principal strong {
+    font-weight: bold;
   }
 
-  em strong {
-    color: red;
-  }
-
+.principal em{
+  font-style: italic;
+}
   .beneficios {
     background: url("src/imagens/bg-madeira-clara.jpeg");
     padding: 20px;
@@ -88,6 +96,7 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 50px;
+    clear: left;
   }
 
   .beneficios h3:hover {
@@ -98,8 +107,8 @@
     display: inline-block;
     vertical-align: top;
     margin-top: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
 
   }
 
@@ -114,8 +123,8 @@
   }
 
   .imagembeneficios {
-    margin-top: 20px;
-    width: 40%;
+    margin-top: 30px;
+    width: 30%;
   }
 
   footer {
