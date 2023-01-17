@@ -57,7 +57,7 @@ nav a:hover {
     padding: 50px 0;
 }
 .produtos li {
-    background-color: #FFFFFF;
+    background:linear-gradient(#FFFFFF 80%,#000000);
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -67,6 +67,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
 }
 
 .produtos li:hover {
@@ -86,6 +87,13 @@ nav a:hover {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+.produto-img{
+    opacity: 1;
+    transition: 1s all ;
+}
+.produto-img:hover{
+    opacity: 0.7;
 }
 
 .produto-descricao {

@@ -1,13 +1,12 @@
   body {
     background: url("src/imagens/bg.jpg");
     color: #FFFFFF;
-    width: 940px;
-    margin: 0 auto;
-
   }
 
   header {
     padding: 20px 0;
+    width: 940px;
+    margin: 0 auto;
 
   }
 
@@ -54,12 +53,19 @@
 
   }
 
+.banner-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
   .banner {
     width: 100%;
   }
 
   .principal {
     padding: 30px;
+    width: 940px;
+    margin: 0 auto;
   }
 
   .principal h2{
@@ -90,15 +96,24 @@
 
 .mapa{
   padding: 2em 0;
+  background: url("src/imagens/bg-madeira-clara.jpeg");
 }
 .mapa h3{
   font-size: 2em;
+  font-style: italic;
+  text-shadow: 2px 2px 5px #000000;
   text-align: center;
   padding: 1em;
 }
 .mapa p{
   margin: 0 0 2em;
+  text-shadow: 2px 2px 5px #000000;
   text-align: center
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
   .beneficios {
     background: url("src/imagens/bg-madeira-clara.jpeg");
@@ -108,6 +123,8 @@
 
   .beneficios h3 {
     text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #000000;
     text-align: center;
     font-size: 2em;
     clear: left;
@@ -126,11 +143,16 @@
   .beneficios li {
     margin-top: 20px;
     font-style: italic;
+    text-shadow: 2px 2px 5px #000000;
     font-size: 30px;
   }
 
   .beneficios li:hover {
     color: #C78C19;
+  }
+
+  .itens:before{
+    content: "✪ ";
   }
 
   .imagembeneficios {
@@ -156,4 +178,10 @@
 
   .copyrigth:hover {
     color: #C78C19;
+  }
+
+  @media screen and  (max-width: 480px){
+     body{ 
+      background: red;
+    }
   }
