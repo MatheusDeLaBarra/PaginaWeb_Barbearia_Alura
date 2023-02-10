@@ -21,21 +21,22 @@ Exemplo de navegadores:
 
 Google Chrome, Microsoft Edge, Firefox, Opera, Safari.
 
-```
-Exemplo de plataformas ou aplicações: 
+Exemplo de IDE: 
 
 Vscode, Sublime Text, Atom, Notepad++.
+```
 
 ### 🔧 Instalação
 
 ```
 Primeiro, copie ou baixe este repositório para sua máquina local.
-```
+
 Em seguida, execute o arquivo index.html com seu navegador padrão:
-```
+
 Navegue entre as abas do cabeçalho.
-```
+
 Até finalizar.
+```
 
 ## 📦 Implantação
 
